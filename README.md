@@ -16,10 +16,12 @@ Cada desafío contiene las siguientes carpetas y archivos:
     * `solucion`: Solución del desafío. **El contenido de esta carpeta sólo debe ser visible para los revisores**.
 * `README.md`: Descripcion del reto y contexto.
 
+_Nota: El archivo `archivos/fuentes/build-docker.sh` sólo debe tomarse como referencia, puede ser modificado para adaptarse a las necesidades de la plataforma._
+
 ## Desafíos
 
 | Categoría | Nombre                           | Objetivo | Dificultad [⭐⭐⭐] |
 | ---       | ---                              | ---      |   ---            |
-| Misc    | [QGuess](Misc/QGuess) | TODO | ⭐⭐⭐ |
-| Crypto    | [Valoris](Crypto/Valoris) | TODO | ⭐⭐ |
-| Crypto    | [Oni Link](Crypto/Oni%20Link) | TODO | ⭐ |
+| Misc    | [QGuess](Misc/QGuess) | Construir un circuito de entrelazamiento cuántico para predecir los resultados de un juego de adivinanza.| ⭐⭐⭐ |
+| Crypto    | [Valoris](Crypto/Valoris) | Intercambiar bloques encriptados con AES-ECB para drenar el dinero de las cuentas de `admin` y `crypto` | ⭐⭐ |
+| Crypto    | [Oni Link](Crypto/Oni%20Link) | Recuperar la llave criptográfica de ChaCha20 mediante un _Known Plaintext Attack_ y así encriptar un mensaje específico. | ⭐ |

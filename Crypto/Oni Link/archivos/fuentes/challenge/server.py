@@ -6,6 +6,11 @@ FLAG = os.getenv("GZCTF_FLAG", "CDM{73571nG_fl4g!}")
 
 class OniLink:
     def __init__(self, debug: bool = True):
+        self.keygen()
+
+        self.debug = debug
+
+    def keygen(self):
         self.key   = os.urandom(32)
         self.nonce = os.urandom(12)
     
@@ -21,18 +26,18 @@ class OniLink:
     def execute(self, data: str):
         command = self.decrypt(data)
 
-        if   command == "ACCESS_GRANTED:INITIALIZATION_COMPLETE": return self.encrypt("ACK")
+        if   command == "ACCESS_GRANTED:INITIALIZATION_COMPLETE": return self.encrypt(b"ACK")
         elif command == "ACCESS_GRANTED:NONCE":                   return self.encrypt(self.nonce)
         elif command == "ACCESS_GRANTED:KEY":                     return self.encrypt(self.key)
         elif command == "ACCESS_GRANTED:RESEED":                  self.keygen()
-        elif command == "ACCESS_GRANTED:ENGAGE":                  return self.encrypt(FLAG)
-        else:                                                     return self.encrypt("NACK")
+        elif command == "ACCESS_GRANTED:ENGAGE":                  return self.encrypt(FLAG.encode())
+        else:                                                     return self.encrypt(b"NACK")
 
 def main():
     link = OniLink()
 
     if link.debug == True:
-        print(f"Debug mode enabled: {link.encrypt('ACCESS_GRANTED:INITIALIZATION_COMPLETE')}")  
+        print(f"Debug mode enabled: {link.encrypt(b'ACCESS_GRANTED:INITIALIZATION_COMPLETE')}")  
 
     menu = """
     Terminal de comunicación de Kuro-Oni.

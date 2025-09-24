@@ -3,7 +3,7 @@ FROM python:3.9-slim-bullseye
 RUN apt-get update
 RUN apt-get install -y socat
 
-RUN pip install qiskit qiskit_aer
+RUN pip install pycryptodome
 
 # Add application
 WORKDIR /challenge
