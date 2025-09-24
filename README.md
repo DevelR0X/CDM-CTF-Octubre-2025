@@ -24,4 +24,4 @@ _Nota: El archivo `archivos/fuentes/build-docker.sh` sólo debe tomarse como ref
 | ---       | ---                              | ---      |   ---            |
 | Misc    | [QGuess](Misc/QGuess) | Construir un circuito de entrelazamiento cuántico para predecir los resultados de un juego de adivinanza.| ⭐⭐⭐ |
 | Crypto    | [Valoris](Crypto/Valoris) | Intercambiar bloques encriptados con AES-ECB para drenar el dinero de las cuentas de `admin` y `crypto` | ⭐⭐ |
-| Crypto    | [Oni Link](Crypto/Oni%20Link) | Recuperar la llave criptográfica de ChaCha20 mediante un _Known Plaintext Attack_ y así encriptar un mensaje específico. | ⭐ |
+| Crypto    | [Oni Link](Crypto/Oni%20Link) | Recuperar la llave criptográfica de ChaCha20 mediante un _Known Plaintext Attack_ y así encriptar un mensaje específico. | ⭐⭐ |
