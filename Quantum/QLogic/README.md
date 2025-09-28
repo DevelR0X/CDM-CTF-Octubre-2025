@@ -1,7 +1,7 @@
 # QLogic
 | Categoria | Dificultad  | Autores   |
 | ---       | ---         | ---     |
-| Misc    | Difícil       | D-Cryp7 (powered by DevelR0X) |
+| Quantum    | Difícil       | D-Cryp7 (powered by DevelR0X) |
 
 ## Descripcion
 En un rincón del Campo de Marte, olvidada entre chatarra y cables fundidos, una mesa de pruebas de NeuroDyne sigue activa. Era un prototipo usado para entrenar implantes lógicos de primera generación: circuitos capaces de ejecutar operaciones básicas que más tarde se integrarían en sistemas de control más grandes.  

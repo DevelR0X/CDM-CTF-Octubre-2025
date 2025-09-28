@@ -1,7 +1,7 @@
 # QGuess
 | Categoria | Dificultad  | Autores   |
 | ---       | ---         | ---     |
-| Misc    | Difícil       | D-Cryp7 (powered by DevelR0X) |
+| Quantum    | Difícil       | D-Cryp7 (powered by DevelR0X) |
 
 ## Descripcion
 La mesa de QGuess en su versión completa es un nodo flotante, blindado y letal en su sencillez.

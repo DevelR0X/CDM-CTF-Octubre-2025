@@ -1,7 +1,7 @@
 # QGuess
 | Categoria | Dificultad  | Autores   |
 | ---       | ---         | ---     |
-| Misc    | Facil       | D-Cryp7 (powered by DevelR0X) |
+| Quantum    | Facil       | D-Cryp7 (powered by DevelR0X) |
 
 ## Descripcion
 La mesa de QGuess fue, alguna vez, parte del sistema de entrenamiento de brokers cuánticos de Pharmatek.
