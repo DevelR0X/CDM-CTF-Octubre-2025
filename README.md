@@ -25,6 +25,6 @@ _Nota: El archivo `archivos/fuentes/build-docker.sh` sólo debe tomarse como ref
 | Quantum    | [QGuess v1.0](Quantum/QGuess%20v1.0) | Romper la superposición del qubit 0 para forzar resultados deterministas y predecir los resultados de un juego de adivinanza.| ⭐ |
 | Quantum    | [QGuess v1.5](Quantum/QGuess%20v1.5) | Construir un circuito de entrelazamiento cuántico para predecir los resultados de un juego de adivinanza.| ⭐⭐ |
 | Quantum    | [QGuess v2.0](Quantum/QGuess%20v2.0) | Construir un circuito de entrelazamiento cuántico para predecir los resultados de un juego de adivinanza, donde se deben invertir los bits de los números obtenidos.| ⭐⭐ |
-| Quantum    | [QLogic](Quantum/QLogic) | Construir un circuito de entrelazamiento cuántico para predecir los resultados de un juego de adivinanza.| ⭐⭐⭐ |
+| Quantum    | [QLogic](Quantum/QLogic) | Construir un circuito cuántico específico que satisfaga las operaciones XOR y AND. La tercera salida se puede obtener mediante la superposición de estados cuánticos.| ⭐⭐⭐ |
 | Crypto    | [Valoris](Crypto/Valoris) | Intercambiar bloques encriptados con AES-ECB para drenar el dinero de las cuentas de `admin` y `crypto` | ⭐⭐ |
 | Crypto    | [Oni Link](Crypto/Oni%20Link) | Recuperar la llave criptográfica de ChaCha20 mediante un _Known Plaintext Attack_ y así encriptar un mensaje específico. | ⭐⭐ |
