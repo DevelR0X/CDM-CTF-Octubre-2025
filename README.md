@@ -5,7 +5,6 @@
 ## Autores:
 
 * Daniel Espinoza (D-Cryp7), _DevelR0X_.
-* Borja Gomez (kub0x), _DevelR0X_.
 
 ## Contenido
 
